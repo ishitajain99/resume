@@ -1,0 +1,38 @@
+.image{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+  background-color: #f6f6f6;
+}
+.left{
+  padding-left: 4rem;
+}
+.right{
+  padding-left: 3rem;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 2rem;
+}
+td{
+  width: 15rem;
+  height: 3.5rem;
+}
+.cor1{
+  height: 32rem;
+}
+.cor2{
+  height: 35rem;
+  width: 45rem;
+}
+@media (max-width:1090px){
+  body{
+    text-align: center;
+  }
+}
